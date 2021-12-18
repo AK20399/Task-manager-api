@@ -18,7 +18,7 @@ router.post('/signup', async (req, res) => {
             return res.status(404).send("User already exists")
         }
         await user.save()
-        sendWelcomeEmail(user.name, user.email)
+        await sendWelcomeEmail(user.name, user.email)
         const token = await user.generateAuthToken()
         return response(res, 'Sign up successful', { user, token }, 201)
     } catch (e) {

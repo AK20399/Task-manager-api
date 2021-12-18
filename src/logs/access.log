@@ -9,3 +9,9 @@ POST /users/avatar 200 32.288 ms
 200 DELETE /users/ 13.075 ms
 201 POST /users/signup 78.729 ms
 200 DELETE /users/ 14.128 ms
+201 POST /users/signup 5659.696 ms
+200 DELETE /users/ 7.745 ms
+201 POST /users/signup 6748.678 ms
+200 DELETE /users/ 25.753 ms
+201 POST /users/signup 6801.310 ms
+200 DELETE /users/ 22.647 ms
