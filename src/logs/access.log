@@ -1,0 +1,11 @@
+POST /users/avatar 200 32.288 ms
+200 GET /users/ 16.228 ms
+200 POST /users/avatar 74.963 ms
+200 GET /users/avatar/61b5af09a59c40025c906ab5 4.187 ms
+404 GET /favicon.ico 0.938 ms
+400 POST /users/signup 10022.947 ms
+400 POST /users/signup 10008.666 ms
+201 POST /users/signup 128.902 ms
+200 DELETE /users/ 13.075 ms
+201 POST /users/signup 78.729 ms
+200 DELETE /users/ 14.128 ms

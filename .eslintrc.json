@@ -1,0 +1,26 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": ["airbnb-base", "prettier"],
+    "parserOptions": {
+        "ecmaVersion": 13
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "extensions": [".js", ".jsx", ".ts", ".tsx"],
+                "moduleDirectory": ["node_modules", "src/"]
+            }
+        }
+    },
+    "rules": {
+        "func-names": "off",
+        "no-underscore-dangle": "off",
+        "no-use-before-define": "off",
+        "radix": "off",
+        "consistent-return": "off"
+    }
+}
